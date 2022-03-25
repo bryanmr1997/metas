@@ -1,0 +1,13 @@
+package com.metasSpring.proyect_metas;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ProyectMetasApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ProyectMetasApplication.class, args);
+	}
+
+}
