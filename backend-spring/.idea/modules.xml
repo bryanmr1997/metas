@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/backend-spring.iml" filepath="$PROJECT_DIR$/.idea/backend-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proyect_metas/proyect_metas.iml" filepath="$PROJECT_DIR$/proyect_metas/proyect_metas.iml" />
     </modules>
   </component>
 </project>
