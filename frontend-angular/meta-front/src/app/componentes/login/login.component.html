@@ -1,0 +1,24 @@
+<div class="body">
+    <div class="login">
+
+        <form [formGroup]="forms" (ngSubmit)="ingresar()">
+            <img src="./assets/img/goal.png" width="50%" alt="">
+            <h1>Logins</h1>
+            <mat-form-field class="ancho" appearance="fill">
+                <mat-label>Usuario</mat-label>
+                <input matInput autocomplete="off" formControlName="usuario">
+              </mat-form-field>
+              <mat-form-field class="ancho" appearance="fill">
+                <mat-label>Contraseña</mat-label>
+                <input type="password" matInput autocomplete="off" formControlName="password">
+              </mat-form-field>
+              <br>
+              <button type="submit" mat-raised-button color="warn" class="ancho button" [disabled]="forms.invalid" >Apachurrale</button>
+        </form>
+        <h1>
+          <label for="">{{hola}}</label>
+        </h1>
+     
+    </div>
+    
+</div>
